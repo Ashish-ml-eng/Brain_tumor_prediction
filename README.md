@@ -114,7 +114,6 @@ Brain-Tumor-Prediction/
 ## 👨‍💻 Author
 
 **Ashish Rajput**
-B.Tech CSE (AI & ML) — 2nd Year
 Focused on Machine Learning, Deep Learning & AI Applications
 
 🔗 GitHub: [A7-ha4](https://github.com/A7-ha4)
