@@ -1,7 +1,7 @@
 🧠 Multi-Class Brain Tumor Prediction using CNN + Django
 📌 Project Overview
 
-This project is a Deep Learning-based Multi-Class Brain Tumor Classification System that predicts the type of brain tumor from MRI images.
+This project is a Deep Learning–based Multi-Class Brain Tumor Classification System that predicts the type of brain tumor from MRI images.
 
 The model classifies brain MRI scans into four categories:
 
@@ -13,18 +13,19 @@ The model classifies brain MRI scans into four categories:
 
 🧠 No Tumor
 
-In addition to model development, I built a Django-based web application where users can upload an MRI image, and the system predicts the tumor type in real-time.
+In addition to model development, I built a Django-based web application where users can upload an MRI image and receive a real-time prediction.
 
 This project demonstrates both Deep Learning expertise and full-stack ML deployment skills.
 
 🚀 Model Performance
+📊 Evaluation Metrics
 Metric	Value
-Best Validation Accuracy	97.42%
-Test Accuracy	96.81%
-Test Loss	0.0954
-Peak Training Accuracy	99.27%
+🏆 Best Validation Accuracy	97.42%
+✅ Test Accuracy	96.81%
+📉 Test Loss	0.0954
+📈 Peak Training Accuracy	99.27%
 
-The model shows strong generalization with high validation and test accuracy.
+The model shows strong generalization with consistently high validation and test performance.
 
 🧠 Model Architecture
 
@@ -42,15 +43,19 @@ Fully Connected Dense Layers
 
 Softmax Output Layer (4 Classes)
 
+Training Configuration
+
 Loss Function: Categorical Crossentropy
+
 Optimizer: Adam
+
 Evaluation Metric: Accuracy
 
 💻 Django Web Application
 
-I integrated the trained CNN model into a Django web application:
+The trained CNN model was integrated into a Django web application.
 
-Features:
+✨ Features
 
 Image upload interface
 
@@ -60,9 +65,9 @@ Real-time prediction
 
 Displays predicted tumor class
 
-Clean and simple UI
+Clean and user-friendly UI
 
-Workflow:
+🔄 Application Workflow
 
 User uploads MRI image
 
@@ -72,17 +77,21 @@ Image is preprocessed
 
 Model predicts tumor class
 
-Result displayed instantly on webpage
+Result is displayed instantly on the webpage
 
-This makes the project a complete end-to-end AI solution, not just a notebook model.
+This transforms the project into a complete end-to-end AI solution, not just a training notebook.
 
 📁 Project Structure
 Brain-Tumor-Prediction/
 │
-├── model_training.ipynb/
+├── model_training.ipynb
 ├── web_page/
+│   ├── templates/
+│   ├── static/
+│   ├── views.py
+│   └── urls.py
+│
 └── README.md
-
 🎯 Key Skills Demonstrated
 
 Multi-class image classification
@@ -95,9 +104,9 @@ Dataset handling with TensorFlow
 
 Model evaluation on test data
 
-Backend integration of ML model
+ML model integration with Django
 
-Building deployable AI web applications
+Building deployable AI-powered web applications
 
 👨‍💻 Author
 
@@ -105,4 +114,4 @@ Ashish Rajput
 B.Tech CSE (AI & ML) – 2nd Year
 Focused on Machine Learning, Deep Learning & AI Applications
 
-GitHub: https://github.com/A7-ha4
+🔗 GitHub: https://github.com/A7-ha4
